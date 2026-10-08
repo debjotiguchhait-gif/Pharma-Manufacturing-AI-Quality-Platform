@@ -1,0 +1,15 @@
+Feature,Importance_Mean,Importance_Std
+Temperature_C,1.3947,0.0307
+Intermediate_Impurity_pct,0.208,0.0087
+Raw_Material_Purity_pct,0.057,0.0013
+pH,0.0266,0.001
+Reactor,0.0158,0.0012
+Supplier,0.0092,0.0007
+Process_Time_hr,0.0048,0.0004
+Equipment_Age_yr,0.0,0.0
+Room_Humidity_pct,0.0,0.0
+Agitation_rpm,0.0,0.0
+Product,0.0,0.0
+Shift,0.0,0.0
+Pressure_bar,-0.0,0.0
+Operator_Experience_yr,-0.0001,0.0

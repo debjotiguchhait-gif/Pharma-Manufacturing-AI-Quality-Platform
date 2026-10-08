@@ -1,0 +1,200 @@
+PHARMA MANUFACTURING PROCESS KNOWLEDGE BASE
+===========================================
+
+[KB-001] TEMPERATURE CONTROL
+
+Temperature is an important process parameter in pharmaceutical manufacturing.
+Temperature excursions may influence reaction kinetics, degradation pathways,
+impurity formation, physical properties, and overall process performance.
+
+When abnormal temperature is observed, investigation may include:
+- temperature sensor and calibration status
+- heating and cooling system performance
+- temperature excursion duration
+- batch temperature profile
+- mixing and heat-transfer conditions
+- comparison with historical successful batches
+
+A statistical or machine-learning association between temperature and product
+quality does not by itself establish that temperature caused a batch failure.
+
+
+[KB-002] pH CONTROL
+
+pH may influence reaction behavior, chemical stability, solubility,
+degradation pathways, and impurity formation.
+
+When unusual pH behavior is observed, investigation may include:
+- pH meter calibration
+- sampling procedure
+- reagent addition
+- buffer preparation
+- process-stage pH profile
+- comparison with historical batches
+
+The importance of pH can be nonlinear. Therefore, weak linear correlation
+does not necessarily mean that pH has no predictive relevance.
+
+
+[KB-003] INTERMEDIATE IMPURITY
+
+Intermediate impurity level can provide information about process performance
+and product-quality risk.
+
+Elevated impurity may be associated with:
+- incomplete conversion
+- degradation
+- side reactions
+- raw-material variability
+- process-condition excursions
+- downstream removal limitations
+
+Investigation should consider impurity trends together with relevant process
+conditions rather than interpreting impurity in isolation.
+
+
+[KB-004] RAW MATERIAL PURITY
+
+Raw-material purity can influence process consistency and downstream product
+quality.
+
+When unusual raw-material behavior is suspected, investigation may include:
+- incoming material test results
+- certificate-of-analysis review
+- supplier and lot information
+- historical lot performance
+- storage conditions
+- material age
+- deviations from expected purity
+
+A predictive relationship with raw-material purity should be treated as
+supporting evidence and not automatic proof of supplier or material failure.
+
+
+[KB-005] REACTOR EFFECT
+
+Differences between reactors may reflect equipment-specific or operational
+conditions.
+
+Potential investigation areas include:
+- reactor qualification status
+- calibration
+- mixing performance
+- heat-transfer behavior
+- maintenance history
+- equipment configuration
+- cleaning history
+- historical reactor performance
+
+A reactor association identified by statistical analysis or machine learning
+does not establish equipment failure.
+
+
+[KB-006] SUPPLIER EFFECT
+
+Supplier-related differences can sometimes reflect variability in material
+properties, specifications, manufacturing processes, storage, or transportation.
+
+Investigation may include:
+- supplier lot comparison
+- incoming quality results
+- certificate-of-analysis review
+- historical supplier performance
+- storage and transportation conditions
+- change-control history
+
+Supplier association should not be interpreted as supplier failure without
+supporting investigation evidence.
+
+
+[KB-007] PROCESS TIME
+
+Process time may affect conversion, degradation, impurity formation, or
+overall process consistency.
+
+Investigation may include:
+- actual versus expected process duration
+- hold times
+- processing interruptions
+- relationship with temperature and pH
+- historical process-time distributions
+
+Process time should normally be evaluated together with other process
+parameters.
+
+
+[KB-008] MODEL EXPLAINABILITY
+
+Feature importance identifies variables that are useful to a predictive model.
+
+SHAP values explain how individual features contribute to a specific model
+prediction relative to the model baseline.
+
+SHAP values describe model behavior. They do not establish physical or
+scientific causation.
+
+A large SHAP contribution means that the model relied strongly on that
+feature for the specific prediction.
+
+
+[KB-009] MODEL PREDICTION
+
+Machine-learning predictions should be treated as decision-support evidence.
+
+A low predicted quality score can be used to prioritize investigation but
+should not independently determine pharmaceutical batch disposition,
+release, rejection, or root cause.
+
+Model predictions should be interpreted together with experimental,
+analytical, process, and quality-system evidence.
+
+
+[KB-010] ROOT-CAUSE GUARDRAIL
+
+Predictive models identify patterns and associations present in historical
+data.
+
+The following distinction must be maintained:
+
+MODEL EVIDENCE:
+A variable contributed strongly to a prediction.
+
+SCIENTIFIC CONCLUSION:
+A variable caused the observed manufacturing outcome.
+
+Moving from model evidence to a causal conclusion requires additional
+scientific investigation and supporting evidence.
+
+
+[KB-011] INVESTIGATION PRIORITIZATION
+
+When a model predicts poor quality, investigation should prioritize variables
+with strong negative model contributions while also considering relevant
+process knowledge.
+
+A practical investigation sequence may include:
+1. identify the strongest model contributors
+2. compare observed values with historical successful batches
+3. verify measurement and calibration status
+4. review related process parameters
+5. examine raw-material and equipment history
+6. review analytical evidence
+7. determine whether additional experiments or investigation are required
+
+Model evidence should guide investigation prioritization rather than replace
+scientific judgment.
+
+
+[KB-012] DECISION-SUPPORT BOUNDARY
+
+The AI system is intended to support process understanding and investigation.
+
+It should not independently:
+- establish manufacturing root cause
+- approve or reject a pharmaceutical batch
+- override validated specifications
+- replace quality-system procedures
+- claim causal relationships solely from predictive-model output
+
+Final manufacturing and quality decisions require appropriate scientific and
+quality review.

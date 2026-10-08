@@ -1,0 +1,5 @@
+Model,CV_R2_Mean,CV_R2_Std,CV_MAE,CV_RMSE,Validation_Time_sec,Performance_Pass,Stability_Pass,Eligible,R2_Rank,RMSE_Rank,MAE_Rank,Stability_Rank,Selection_Status
+Gradient Boosting,0.8762,0.0062,1.4752,1.8476,60.5496,True,True,True,1.0,1.0,1.0,3.0,Champion Candidate
+MLP Neural Network,0.8645,0.0061,1.5378,1.9328,30.5798,True,True,True,2.0,2.0,2.0,2.0,Challenger Candidate
+Random Forest,0.8604,0.0068,1.5615,1.9617,61.081,True,True,True,3.0,3.0,3.0,4.0,Candidate
+Extra Trees,0.859,0.0052,1.566,1.9721,19.7325,True,True,True,4.0,4.0,4.0,1.0,Candidate

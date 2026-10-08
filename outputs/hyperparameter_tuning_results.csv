@@ -1,0 +1,5 @@
+Model,Best_CV_R2,Tuning_Time_sec,Best_Parameters
+Gradient Boosting,0.8762,2120.61,"{'model__subsample': 0.85, 'model__n_estimators': 400, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_depth': 2, 'model__learning_rate': 0.05}"
+MLP Neural Network,0.8645,939.38,"{'model__learning_rate_init': 0.005, 'model__hidden_layer_sizes': (128,), 'model__alpha': 0.001, 'model__activation': 'tanh'}"
+Random Forest,0.8604,1655.67,"{'model__n_estimators': 300, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_features': 0.75, 'model__max_depth': 20}"
+Extra Trees,0.859,557.64,"{'model__n_estimators': 300, 'model__min_samples_split': 10, 'model__min_samples_leaf': 1, 'model__max_features': 0.75, 'model__max_depth': 20}"

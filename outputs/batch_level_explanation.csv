@@ -1,0 +1,24 @@
+Feature,Feature_Value,SHAP_Value,Absolute_SHAP,Direction
+Temperature_C,34.38006145616603,-33.85450532311497,33.85450532311497,Decreases prediction
+Raw_Material_Purity_pct,96.72347120104506,-2.0771740553419216,2.0771740553419216,Decreases prediction
+Intermediate_Impurity_pct,2.03723474040416,0.5754020069910175,0.5754020069910175,Increases prediction
+Reactor_Reactor_03,0.0,0.31816428037099453,0.31816428037099453,Increases prediction
+Supplier_Supplier_C,0.0,0.2984526206939506,0.2984526206939506,Increases prediction
+pH,6.385492788781612,0.19725341539565433,0.19725341539565433,Increases prediction
+Process_Time_hr,8.054083051182564,0.0969916682024677,0.0969916682024677,Increases prediction
+Operator_Experience_yr,14.798539236104029,-0.08926812053989436,0.08926812053989436,Decreases prediction
+Product_Product_A,0.0,0.025244777944353595,0.025244777944353595,Increases prediction
+Product_Product_B,0.0,-0.01556659750663589,0.01556659750663589,Decreases prediction
+Room_Humidity_pct,63.3958845221041,-0.009950444389381492,0.009950444389381492,Decreases prediction
+Supplier_Supplier_A,0.0,-0.006044396329669708,0.006044396329669708,Decreases prediction
+Reactor_Reactor_04,0.0,-0.005299765628294566,0.005299765628294566,Decreases prediction
+Pressure_bar,1.9987505385718407,0.0022772791964778593,0.0022772791964778593,Increases prediction
+Equipment_Age_yr,5.642412639073943,-0.0018524895927412059,0.0018524895927412059,Decreases prediction
+Agitation_rpm,326.66166779933934,-0.000822528074268071,0.000822528074268071,Decreases prediction
+Supplier_Supplier_B,1.0,0.0003272883161941365,0.0003272883161941365,Increases prediction
+Reactor_Reactor_01,0.0,0.0,0.0,Decreases prediction
+Product_Product_C,1.0,0.0,0.0,Decreases prediction
+Shift_Evening,0.0,0.0,0.0,Decreases prediction
+Shift_Morning,0.0,0.0,0.0,Decreases prediction
+Shift_Night,1.0,0.0,0.0,Decreases prediction
+Reactor_Reactor_02,1.0,0.0,0.0,Decreases prediction
