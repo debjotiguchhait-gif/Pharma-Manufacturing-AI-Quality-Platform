@@ -1,4 +1,4 @@
-\# Pharma Manufacturing AI Quality Platform
+# Pharma Manufacturing AI Quality Platform
 
 
 
@@ -12,31 +12,29 @@ The system combines machine learning, explainability, model applicability, knowl
 
 ![Pharma Manufacturing AI Quality Platform Architecture](assets/architecture.png)
 
-
-
-\## Key Capabilities
-
-
-
-\- Automated comparison and validation of multiple ML models
-
-\- Batch quality prediction using a tuned Gradient Boosting model
-
-\- Batch-level SHAP explanation of key model drivers
-
-\- Univariate + multivariate applicability/OOD assessment
-
-\- Hybrid RAG using manufacturing process knowledge and governance guardrails
-
-\- Optional Gemini-based grounded evidence synthesis
-
-\- Audit logging and actual QC outcome capture
-
-\- Population drift (PSI) and production model performance monitoring
+## Key Capabilities
 
 
 
-\## Model Performance
+- Automated comparison and validation of multiple ML models
+
+- Batch quality prediction using a tuned Gradient Boosting model
+
+- Batch-level SHAP explanation of key model drivers
+
+- Univariate + multivariate applicability/OOD assessment
+
+- Hybrid RAG using manufacturing process knowledge and governance guardrails
+
+- Optional Gemini-based grounded evidence synthesis
+
+- Audit logging and actual QC outcome capture
+
+- Population drift (PSI) and production model performance monitoring
+
+
+
+## Model Performance
 
 
 
@@ -54,7 +52,7 @@ The system combines machine learning, explainability, model applicability, knowl
 
 
 
-\*\*Champion Model — Gradient Boosting\*\*
+**Champion Model — Gradient Boosting**
 
 
 
